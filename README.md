@@ -3,8 +3,8 @@
 ![](https://cdn.discordapp.com/attachments/1007250454943641733/1028927310780432424/file.jpg)
 
 ### Учебный материал:
-- ...
+- В папке requestsPy коды из лекции
 
 ### Дополнительные материалы:
-- [...](https://ru.wikipedia.org/wiki/XML)
+- [API Yandex Disk. Запрос URL для загрузки](https://yandex.ru/dev/disk/api/reference/upload.html)
   
