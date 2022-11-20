@@ -1,7 +1,7 @@
 import requests
 from tqdm import tqdm
 
-def ingenious(person1='Hulk', person2='Captain America', person3='Thanos'):
+def ingenious(person1='Hulk', person2='Captain America', person3='A-Bomb'):
     # Формируем GET запрос к серверу с применением 
     # стандартного программного интерфейса API
     response = requests.get('https://akabab.github.io/superhero-api/api/all.json')
@@ -14,20 +14,21 @@ def ingenious(person1='Hulk', person2='Captain America', person3='Thanos'):
             intelligences = response.json()[i]['powerstats']['intelligence']
             di[nm] = intelligences
         i += 1         
-    # Поиск в словаре ключа с максимальным значением
+    # Поиск в словаре ключа с максимальным значением интеллекта
     max_val = max(di.values())
     final_dict = {k:v for k, v in di.items() if v == max_val} 
 
     # Форматирование выходной строки
     strings = []
     for key, item in final_dict.items():
-        strings.append('Самый умный {}: у него {} % мыслетоплива'.format(key, item))
+        strings.append('Самый умный: {}. \n' 
+                       'Уровень его интеллекта равен: {}.'.format(key, item))
     result = ', '.join(strings)
 
     return result
 
 if __name__ == '__main__':
-    print(ingenious())
+    print(ingenious('','','Thanos'))
 
 
 
