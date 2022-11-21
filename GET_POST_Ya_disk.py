@@ -1,7 +1,7 @@
 from pprint import pprint
 import requests
 
-TOKEN = "y0_AgAAAAAEjD-yAADLWwAAAADTV-dh-RUAV19UQjOg6ncEDLe5v3S-CZs"
+TOKEN = "..."
 
 
 
