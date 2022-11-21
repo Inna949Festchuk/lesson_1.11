@@ -9,11 +9,11 @@ class YandexDisk:
 
     def __init__(self, token):
         self.token = token
-# Функция которая автоматически возвращает токен
+    # Функция которая автоматически возвращает токен
     def get_headers(self):
         return {
-            'Content-Type': 'application/json',
-            'Authorization': f'OAuth {self.token}'
+                'Content-Type': 'application/json',
+                'Authorization': f'OAuth {self.token}'
         }
     # ФУНКЦИЯ ПОЛУЧЕНИЯ ДАННЫХ С ЯНДЕКС ДИСКА
     def get_files_list(self):
