@@ -13,5 +13,6 @@
 4. [Очень хорошая книга по установке библиотек и пр. "Python для сетевых инженеров"](https://pyneng.readthedocs.io/ru/latest/book/01_intro/pip.html)
 5. [Видео по созданию виртуальной среды environment](https://www.youtube.com/watch?v=cmgAseh1Mcc&t=220s)
 6. [Библиотека Requests: HTTP for Humans](https://python.ru/post/97/)
-- *команда в терминале VSC для создания env:* python -m venv .test, где .test - это название виртуальной среды
-- *команда в терминале VSC (открытом для виртуальной среды) для деактивации env:* deactivate
+
+## Создание виртуальной среды:
+[Виртуальное окружение Python (venv)](https://pythonchik.ru/okruzhenie-i-pakety/virtualnoe-okruzhenie-python-venv)
