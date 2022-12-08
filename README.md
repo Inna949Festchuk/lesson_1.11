@@ -14,5 +14,10 @@
 5. [Видео по созданию виртуальной среды environment](https://www.youtube.com/watch?v=cmgAseh1Mcc&t=220s)
 6. [Библиотека Requests: HTTP for Humans](https://python.ru/post/97/)
 
-## Создание виртуальной среды:
-[Виртуальное окружение Python (venv)](https://pythonchik.ru/okruzhenie-i-pakety/virtualnoe-okruzhenie-python-venv)
+### Создание виртуальной среды и списка зависимостей:
+- [Создание и актитвация виртуального окружения Python (venv)](https://pythonchik.ru/okruzhenie-i-pakety/virtualnoe-okruzhenie-python-venv)
+- **После активации виртуальной среды в VSC вместо глобального выбрать интерпритатор Python виртуальной среды и только после этого проинсталировать с среду все необходимые пакеты**
+![image](https://user-images.githubusercontent.com/113055647/206571651-2cc91af5-855b-4feb-bd02-1bf15f1ac51e.png)
+- [Настройка виртуального окружения в Python](https://semakin.dev/2020/04/python_virtualenv/)
+- [Создание зависимостей requirements.txt](https://semakin.dev/2020/04/requirements_txt/)
+- [Установка пакетов из requirements.txt](requirements.txt)
